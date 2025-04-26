@@ -53,7 +53,7 @@ with st.sidebar:
     st.header("⚙️ Configuration")
     selected_model = st.selectbox(
         "Choose Model",
-        ["ollama run deepseek-r1:7b"],
+        ["deepseek-r1:7b"],
         index=0
     )
     st.divider()
